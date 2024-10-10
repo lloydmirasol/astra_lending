@@ -1,0 +1,136 @@
+/* Custom Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.custom-navbar {
+    background: linear-gradient(90deg, #2AA198 0%, #3CB371 100%);
+}
+
+.navbar-brand {
+    color: #000000;
+}
+
+.nav-link {
+    color: #000000;
+    font-weight: 500;
+}
+
+.hero-section {
+    background-color: #2AA198;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(15, 7, 7);
+}
+
+.btn-gradient {
+    background: linear-gradient(90deg, #2AA198 0%, #3CB371 100%);
+    color: rgb(0, 0, 0);
+    transition: background 0.3s;
+}
+
+.btn-gradient:hover {
+    background: linear-gradient(90deg, #3CB371 0%, #2AA198 100%);
+}
+
+.feature-box {
+    background-color: white;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.text-gradient {
+    background: -webkit-linear-gradient(45deg, #2AA198, #3CB371);
+    -webkit-text-fill-color: transparent;
+}
+
+/* Form Styling */
+input,
+textarea {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #2AA198;
+    box-shadow: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #999;
+}
+
+.modal-content {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #2AA198;
+    color: white;
+    font-weight: 500;
+}
+
+/* General Section Styling */
+.section-about {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Card Styling */
+.card-about {
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card-about:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Image Styling */
+.about-logo {
+    width: 250px; /* Adjust the width to be rectangular */
+    height: 150px; /* Adjust the height accordingly */
+    object-fit: cover;
+    border: 3px solid #ddd;
+    transition: border-color 0.3s ease-in-out;
+    border-radius: 0; /* Ensure no border-radius is applied */
+}
+
+
+
+.about-logo:hover {
+    border-color: #007bff;
+}
+
+/* Text Styling */
+.about-text {
+    color: #555;
+    line-height: 1.8;
+}
+
+@media (min-width: 768px) {
+    .section-title {
+        font-size: 3rem;
+    }
+}
+
